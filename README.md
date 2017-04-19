@@ -26,5 +26,3 @@ Before:
 After:
 
 ![After](https://github.com/deepinstinct/dsc_fix/raw/master/after.png "After")
-
-## License
