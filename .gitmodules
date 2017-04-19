@@ -1,0 +1,3 @@
+[submodule "Mach-O"]
+	path = Mach-O
+	url = https://github.com/deepinstinct/Mach-O
