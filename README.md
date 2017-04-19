@@ -13,7 +13,7 @@ To solve this problem, this script does the following:
 2. Patches those trampolines so that the code will return and make the code flow intuitive without mapping the destination branch code to the database (making it more compact).
 3. Scans the database for the following patterns: B 0x..., BL 0x..., DCD 0x..., DCQ 0x... in order to find more addresses which are not found in memory.
 
-## Notice
+## Notes
 1. The script will pop up an open-file-dialog which requires to put in its original dyld_shared_cache_arm64 file.
 2. This was tested on a dyld_shared_cache_arm64 from an iPhone6 v10.0.1  and iPhoneSE v9.3.3.
 
