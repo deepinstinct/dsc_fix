@@ -742,8 +742,6 @@ def main():
     print "[+] about to parse %s.." % (dsc_path)
     dsc_file = open(dsc_path, "rb")
     adrfind = AddrFinder(dsc_file, cache_symbols=False)
-    import shell
-    shell.shell()
     map_shared_bridges(dsc_file, adrfind)
     if _IN_IDA:
         addresses = sorted(set(get_bad_addresses()))
