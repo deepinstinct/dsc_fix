@@ -1,6 +1,6 @@
 # dyld shared cache references fix
 ## Synopsis
-This script helps reverse engineer a specific library from the [dyld shared cache](http://iphonedevwiki.net/index.php/Dyld_shared_cache) with ease in IDA.
+This script helps reverse engineer a specific library from the [dyld shared cache](http://iphonedevwiki.net/index.php/Dyld_shared_cache) with ease in IDA, by [Deep Instinct](https://www.deepinstinct.com).
 
 
 ## Motivation
